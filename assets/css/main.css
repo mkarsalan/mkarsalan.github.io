@@ -92,6 +92,13 @@ input, select, textarea {
 	font-size: 40px;
 }
 
+.subHeadingArticle {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.2;
+	letter-spacing: 0.075em;
+	margin: 0 0 1rem 0;
+}
 .center-justified {
     text-align: justify;
     text-align-last: center;
@@ -2641,6 +2648,17 @@ input, select, textarea {
 			margin: 0 0 2rem 2rem;
 			top: 0.75rem;
 		}
+
+		.image.fitMedium {
+			display: block;
+			margin: 2.5rem 0;
+			margin-left: auto;
+			margin-right: auto;
+			width: 80%;
+		}
+			.image.fitMedium img {
+				width: 100%;
+			}
 
 		.image.fit {
 			display: block;
