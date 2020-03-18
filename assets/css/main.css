@@ -103,6 +103,15 @@ input, select, textarea {
 	word-spacing: 0.15em;
 }
 
+.mainSubHeading {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.7;
+	letter-spacing: 0.075em;
+	margin: 0 0 1.5em 0;
+	word-spacing: 0.15em;	
+}
+
 .technologiesF{
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 15px;
@@ -2863,7 +2872,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 0.5rem 0 0;
+			padding: 0 0.8rem 0 0;
 			vertical-align: middle;
 		}
 
@@ -2886,7 +2895,7 @@ input, select, textarea {
 			-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 			-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 			transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-			font-size: 1rem;
+			font-size: 2rem;
 		}
 
 /* List */
@@ -4176,11 +4185,11 @@ input, select, textarea {
 		}
 
 		#footer ul.icons.alt li .icon:before {
-			box-shadow: inset 0 0 0 2px #e2e2e2;
+			box-shadow: inset 0 0 0 0 #e2e2e2;
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 0 #18bfef;
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
