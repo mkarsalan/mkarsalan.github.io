@@ -1,1 +1,1 @@
-Goto http://mkarsalan.github.io
+This is my Portfolio Page : http://mkarsalan.github.io
